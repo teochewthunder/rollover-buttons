@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rollover</title>
+		<style>
+			#btn_fb,#btn_li,#btn_tw
+			{
+				width:64px;
+				height:64px;
+				border-width:0px;
+				background-position:0% 0%;
+				cursor:pointer;
+			}
+
+			#btn_fb:hover,#btn_li:hover,#btn_tw:hover
+			{
+				background-position:0% 100%;
+			}	
+
+			#btn_fb
+			{
+				background-image:url(img/rollover_fb2.jpg);
+			}
+
+			#btn_li
+			{
+				background-image:url(img/rollover_li2.jpg);
+			}
+
+			#btn_tw
+			{
+				background-image:url(img/rollover_tw2.jpg);
+			}
+		</style>
+	</head>
+	<body>
+        		<button onclick="window.location='https://www.facebook.com/joseph.i.schooling'" id="btn_fb"></button>
+
+        		<button onclick="window.location='https://www.linkedin.com/in/joseph-schooling-1750a9a2'" id="btn_li"></button>
+
+        		<button onclick="window.location='https://twitter.com/joschooling'" id="btn_tw"></button>
+	</body>
+</html>
